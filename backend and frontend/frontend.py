@@ -7,7 +7,7 @@ st.set_page_config(
     layout="wide"
 )
 
-API_URL = "http://127.0.0.1:8000"
+API_URL = "https://vehicle-fraud-detection-pgbo.onrender.com"
 
 st.title("🚗 Vehicle Insurance Claim Fraud Detection")
 st.write("Enter the insurance claim details to predict the likelihood of fraud.")
